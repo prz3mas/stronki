@@ -1,0 +1,179 @@
+body
+{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+ nav
+ {
+     background-color: #377854;
+     text-align: center;
+ }
+
+ .menu
+ {
+     list-style-type: none;
+     margin: 0;
+     padding: 10px;
+     font-size: 18px;
+     min-height: 40px;
+     line-height: 200%;
+     }
+
+ .menu > li
+ {
+     display: inline-block;
+     padding-left: 40px;
+     padding-right: 40px;
+ }
+
+ .menu a
+ {
+     color: white;
+     text-decoration: none;
+ }
+
+.menu a:hover
+{
+    color: gold;
+
+}
+
+.artyk
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 70%;
+    text-align: center;
+    padding: 0;
+}
+
+.strona
+{
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+
+}
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 20px;
+}
+.logo
+ {
+    display: flex;
+    justify-content: center;
+ }
+
+.info
+{
+    opacity: 75%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    background-color: rgba(0, 74, 85, 0.97);
+    position: fixed;
+    bottom: 0;
+}
+
+.galery
+{
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+label
+{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+
+}
+
+
+.tab
+{
+    padding-top: 20px;
+
+}
+
+table.tabela
+{
+    border: 1px solid gold;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+}
+table.tabela td, table.tabela th
+{
+
+    border: 1px solid #377854;
+    padding: 3px 4px;
+}
+table.tabela tbody td
+{
+
+    font-size: 20px;
+}
+
+table.tabela thead
+{
+
+    border-bottom: 4px solid #333333;
+}
+table.tabela thead th
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+}
+table.tabela thead th:first-child
+{
+    border-left: none;
+}
+
+table.tabela tfoot
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+}
+table.tabela tfoot td
+{
+    font-size: 20px;
+}
+
+input[type=submit]
+{   padding:5px 15px; background:#377854; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: gold;
+}
+input[type=reset]
+{   padding:5px 15px; background:#377854; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: gold;
+}
+.strona {
+
+
+}
